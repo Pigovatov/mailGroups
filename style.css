@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+
+body {
+    font: 400 14px/1 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1114px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: none;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.header {
+    padding-top: 40px;
+    background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
+    padding-bottom: 40px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.btn {
+    font: 400 14px/1 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 16px 30px;
+    gap: 10px;
+}
+
+.btn-default {
+    color: #0F064C;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px #0F064C;
+
+}
+
+.header-nav  a {
+    color: #FFFFFF;
+}
+
+.header-nav-left {
+    font-weight: 700;
+    margin-left: 66px;
+
+}
+
+.header-nav-right {
+    font-weight: 400;
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.8)
+
+}
+
+.header-nav-left a + a,
+.header-nav-right a + a
+{
+    margin-left: 30px;
+}
+
+.inner {
+    height: 100vh;
+    background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
+    padding-top: 106px;
+    min-height: 910px;
+    min-width: 1360px;
+}
+
+.call-to-action-title {
+font-weight: 700;
+font-size: 48px;
+color: #FFFFFF;
+margin-top: 55px;
+z-index: 2;
+line-height: 1.29;
+position: relative;
+}
+
+.inner-call-to-action {
+    
+    max-width: 545px;
+    position: relative;
+
+}
+.inner-call-to-action::after {
+    content: '';
+    width: 738px;
+    height: 611px;
+    background: url('../img/inner-bg.png') no-repeat;
+    position: absolute;
+    top: -100px;
+    right: -655px;
+    z-index: 1;
+}
+
+.call-to-action-desq {
+    margin-top: 20px;
+    max-width: 383px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 55px;
+}
+
+.call-to-action-desq >mark {
+    background-color: inherit;
+    color: #36A7B9;
+    font-weight: 700;
+}
+
+.test-your-email {
+    display: inline-block;
+}
+
+.email-not-required { 
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.email-not-required span {
+    margin-left: 15px;
+}
+
+.inner-services-wrap {
+    margin-top: 95px;
+}
+
+.inner-services-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.29;
+    color: #FFFFFF;
+    max-width: 364px;
+    margin-left: -15px;
+    margin-bottom: 32px;
+}
+
+.inner-services-list-item {
+    background-color: rgba(15, 6, 76, 0.45);
+    width: 164px;
+    height: 164px; 
+    margin-left: -15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.inner-services-list-item:hover {
+    background-color: #FFFFFF;
+}
+
+.inner-services-list-item + .inner-services-list-item {
+    margin-left: 10px;
+}
+.mailchimp-icon {
+    color: #FFFFFF;
+}
+
